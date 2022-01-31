@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+#container{
+  height:  auto;
+  width:  60%;
+  padding: 20px;
+  color: rgb(82, 81, 81);
+  border: 1px solid rgb(204, 204, 204);
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+}
+
+input{
+  margin: 10px 0;
+  height: 40px;
+  width: 90%;
+  padding: 5px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 5px;
+}
+input:focus{
+  outline: none;
+  border: 2px solid rgb(197, 238, 255);
+  box-shadow: 0px 1px 2px 1px rgb(224, 241, 245);
+}
+#submit{
+  color: white;
+  background-color: #57b457;
+  padding: 8px;
+  border: 1px solid green;
+  border-radius: 5px;
+  /* box-shadow: 0 1px 3px 1px rgba(189, 188, 188, 0.815); */
+}
+
+img{
+  height:  100px;
+  width: 100px;
+  padding: 5px;
+  border: 1px solid rgba(173, 173, 173, 0.938) ;
+  margin: 30px 30px 0 0 ;
+}
+#display_profile{
+  display: none;
+}
+#repo_list{
+  display: none;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+#repo_link{
+  margin: 5px;
+  background-color: #de6834;
+  border: none;
+  padding: 4px;
+  border-radius: 2px;
+  color: white;
+}
